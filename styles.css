@@ -9,8 +9,12 @@ h1, h3 {
   text-align: center;
 }
 
+ul, ol {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 img {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .flex-container {
@@ -23,4 +27,92 @@ img {
 
 .flex-item {
    padding: 100px;
+}
+
+
+/* Recipe Pages */
+
+.recipe-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.left-recipe-flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 0 0 10%;
+  }
+
+  .image-flex-item {
+    display: flex;
+    margin: 133px 5% 0 5%;
+    width: fit-content;
+  }
+
+  .image-flex-item > img {
+    width: 100%;
+  }
+
+
+
+.ingredients-flex-item {
+  background-color: lightsalmon;
+  margin: 5%;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.right-recipe-flex-container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  margin: 50px 0 0 0;
+}
+
+.description-flex-item {
+  display: flex;
+  text-align: center;
+  margin-left: 40%;
+}
+
+
+.steps-flex-container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content; 
+  background-color: rgb(117, 152, 112);
+  border-radius: 20px;
+  margin: 2%;
+  padding: 10px;
+}
+
+
+.star-rating-flex-container {
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+.ratyli .rate {
+  color: #ccc; font-size: 80px;
+}
+
+/* empty sign style */
+.ratyli .rate-empty {
+  color: #666;
+}
+
+/* full sign style after rating*/
+.ratyli.rated .rate-full {
+  color: rgb(252, 133, 86);
+}
+
+/* active signs (hover)*/
+.ratyli .rate-active {color: #a94039;
 }
