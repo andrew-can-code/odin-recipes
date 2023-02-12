@@ -26,7 +26,7 @@ img {
 }
 
 .flex-item {
-   padding: 100px;
+   padding: 50px;
 }
 
 
@@ -49,7 +49,7 @@ img {
   .image-flex-item {
     display: flex;
     margin: 133px 5% 0 5%;
-    width: fit-content;
+    width: 80%;
   }
 
   .image-flex-item > img {
@@ -62,7 +62,7 @@ img {
   background-color: lightsalmon;
   margin: 5%;
   padding: 10px;
-  width: fit-content;
+  width: 80%;
   border-radius: 20px;
 }
 
@@ -96,6 +96,7 @@ img {
 .star-rating-flex-container {
   text-align: center;
   font-size: 2rem;
+  margin: 0 0 50px 0;
 }
 
 .checked {
