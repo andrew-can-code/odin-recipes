@@ -98,21 +98,27 @@ img {
   font-size: 2rem;
 }
 
+.checked {
+  color: orange;
+}
 
+/*
 .ratyli .rate {
   color: #ccc; font-size: 80px;
 }
 
-/* empty sign style */
+
 .ratyli .rate-empty {
   color: #666;
 }
 
-/* full sign style after rating*/
+
 .ratyli.rated .rate-full {
   color: rgb(252, 133, 86);
 }
 
-/* active signs (hover)*/
+
 .ratyli .rate-active {color: #a94039;
 }
+
+*/
